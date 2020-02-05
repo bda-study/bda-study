@@ -1,3 +1,10 @@
+layout: page
+title: "다음 스터디 계획 회의"
+date: Y2020-02-05 23:48:00 -0000
+categories: meeting
+
+---
+
 # 2020-02-05 다음 스터디 계획 회의
 
 ---
