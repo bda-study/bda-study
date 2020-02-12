@@ -1,6 +1,5 @@
 ---
-layout: page
-title: "다음 스터디 계획 회의"
+title: "다음 스터디 주제 "
 date: 2020-02-05 23:48:00 +0900
 categories: meeting
 ---
