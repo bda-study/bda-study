@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Big Data Analytics Engineer Pages"
+title                    : "IT Engineering Study Group for Big Data, Data Analytics, and Cloud Platforms"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "BDA Group"
-description              : "The engineer group for bigdata, analytics and cloud."
+description              : "IT engineering study group for bigdata, analytics and cloud."
 url                      : "https://bda-study.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -119,6 +119,9 @@ author:
     - label: "Slack"
       icon: "fab fa-fw fa-slack"
       url: "http://bda-study.slack.com/"
+    - label: "Hangout"
+      icon: "fab fa-fw fa-hangout"
+      url: "https://hangouts.google.com/call/DXQHP5yQKvfoPu8iaYeCAEEM/"
 
 # Site Footer
 footer:
