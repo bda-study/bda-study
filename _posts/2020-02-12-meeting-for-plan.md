@@ -4,7 +4,7 @@ date: 2020-02-17 22:46:00 +0900
 categories: meeting
 ---
 
-## 2020-02-12 회의
+## 2020-02-12 스터디 계획 회의
 
 - 공통 분모라 할 수 있는 Coursera 강의를 함께 수강
   - [Architecting with Google Compute Engine 전문 분야](https://www.coursera.org/specializations/gcp-architecture)의 첫번째 강의 <br/>
