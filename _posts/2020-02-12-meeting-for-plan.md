@@ -1,7 +1,7 @@
 ---
 title: "스터디 계획 회의"
 date: 2020-02-17 22:46:00 +0900
-categories: post
+categories: meeting
 ---
 
 ## 2020-02-12 회의
