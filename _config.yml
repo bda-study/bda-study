@@ -120,8 +120,8 @@ author:
       icon: "fab fa-fw fa-slack"
       url: "http://bda-study.slack.com/"
     - label: "Hangout"
-      icon: "fab fa-fw fa-hangout"
-      url: "https://hangouts.google.com/call/DXQHP5yQKvfoPu8iaYeCAEEM/"
+      icon: "fab fa-fw fa-quote-right"
+      url: "https://hangouts.google.com/call/DXQHP5yQKvfoPu8iaYeCAEEM"
 
 # Site Footer
 footer:
