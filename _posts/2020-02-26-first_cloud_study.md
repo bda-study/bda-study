@@ -4,11 +4,21 @@ date: 2020-02-26 22:25:00 +0900
 categories: meeting
 ---
 
-## 2020-02-26 첫번째 스터디 진행
+## 2020-02-26 GCP 스터디. Core Infrastructre 첫번째
 
-- 지난주에 Q&A 확인
+### - 차주 스터디 계획
+  - 일시 : 2020-03-04
+  - 범위 : Core Infrastructure 강의 containers 부터 끝까지
+  - 준비 : 클립당 1개 이상 문제 내기
+  - 진행 : 문제 풀기, Q&A/자유공유
+
+### - Core Infrastructre, Introducing ~ Storage
+
+- 지난주 Q&A 확인
+  - n/a (다음주부터)
 
 - 문제 내보기 (클립당 1개 이상)
+  - n/a (다음주부터)
 
 - Q&A 및 공유
   - zone 과 region의 차이점
