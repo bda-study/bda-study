@@ -1,5 +1,5 @@
 ---
-title: "첫번째 스터디 진행"
+title: "GCP 스터디. Core Infrastructre 첫번째"
 date: 2020-02-26 22:25:00 +0900
 categories: meeting
 ---
@@ -12,7 +12,12 @@ categories: meeting
   - 준비 : 클립당 1개 이상 문제 내기
   - 진행 : 문제 풀기, Q&A/자유공유
 
-### - Core Infrastructre, Introducing ~ Storage
+### - 스터디 진행 내용
+
+- 개요
+  - 범위 : Core Infrastructre, Introducing ~ Storage
+  - 일시 : 2020-02-26 21:00~22:30
+  - 참석 : 동렬, 영균, 덕헌, 광선
 
 - 지난주 Q&A 확인
   - n/a (다음주부터)
