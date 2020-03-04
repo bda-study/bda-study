@@ -22,8 +22,6 @@ categories: meeting
 - 지난주 Q&A 확인
   - n/a
 
-- 문제 내보기 (클립당 1개 이상)
-  - n/a
-
 - Q&A 및 공유
-  - n/a
+  - [Q/A](https://github.com/bda-study/bda-study.github.io/blob/master/contents/2020-03-04-QnA_GCP_Fundamentals_Core_Infrastructure_002.md)
+  - [요약](https://github.com/bda-study/bda-study.github.io/blob/master/contents/2020-03-04-Summary_GCP_Fundamentals_Core_Infrastructure_002.md)
