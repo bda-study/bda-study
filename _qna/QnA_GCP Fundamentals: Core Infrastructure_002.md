@@ -1,3 +1,9 @@
+---
+title: "Google Cloud Platform Fundamentals: Core Infrastructure 002"
+date: 2020-03-04 22:50:00 +0900
+categories: qna
+---
+
 # Google Cloud Platform Fundamentals: Core Infrastructure 002
 
 
