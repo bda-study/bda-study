@@ -1,7 +1,7 @@
 # Google Cloud Platform Fundamentals: Core Infrastructure
 
 Created By: youngkyun Kim
-Last Edited: Mar 04, 2020 9:28 PM
+Last Edited: Mar 08, 2020 3:53 PM
 
 [https://www.coursera.org/learn/gcp-fundamentals?specialization=gcp-architecture#syllabus](https://www.coursera.org/learn/gcp-fundamentals?specialization=gcp-architecture#syllabus)
 
@@ -223,3 +223,150 @@ VM 리소스에 대한 시간당 비용 발생.
 ## Google Cloud Endpoints and Apigee Edge
 
 API 서비스다.
+
+## Development in the cloud
+
+Cloud Source Repository?
+
+git repository 기능 제공
+
+IAM 기반 권한 제어 가능
+
+Cloud Functions? (Beta)
+
+event driven architecture에서의 server-less function 제공
+
+ex) 사진 업로드 이벤트 → 썸네일 자동 생성, 파일 저장 등
+
+이벤트 발생 횟수에 따라 과금
+
+1. event 선택
+2. Node.js 환경에서 실행 될 function 작성
+
+MSA 구현 전체를 Cloud Functions 만으로 구현 가능
+
+## Deployment: Infrastructure as code
+
+인프라를 명령어로 관리하기보다, 템플릿으로 정형화 해서 선언적인 형태로 관리하는 것이 효율적이다.
+
+템플릿은 소스로 만들 수 있기 때문에 버전 컨트롤이 가능하다.
+
+## Monitoring: Proactive instrumentation
+
+Stackdriver?
+
+GCP 모니터링 도구
+
+Stackdriver Monitoring?
+
+web app의 endpoint 체크, uptime 체크 (instance, load balancers), alert setting
+
+notification 도구들과 사용 가능하며, dashboard 구성도 가능함.
+
+Stackdriver Logging?
+
+app의 로그를 보거나 필터링 할 수 있음.
+
+로그 기반의 metric을 정의하여 대시보드나 alert에 노출시킬 수 있음.
+
+로그를 bigquery, pubsub 등에 export 할 수 있다.
+
+Stackdriver Error Reporting?
+
+에러를 그룹화 하고 추적하여 app에서 에러 발생 시 notify
+
+Stackdriver Trace?
+
+App Engine의 레이턴시 샘플링, URL 단위의 statistics 제공
+
+Stackdriver Debugging?
+
+디버깅 기능 제공
+
+어플리케이션에 디버깅 코드를 작성하는 기존 방식과 달리, 어플리케이션의 상태를 inspect할 수 있도록 production data를 소스코드에 연결함.
+
+Cloud Source repository에 소스코드가 있을 경우 잘 동작함.
+
+## Google Cloud Big Data Platform
+
+Cloud Dataproc?
+
+hadoop 기반 빅데이터 솔루션(hdfs, spark, hive, pig)을 사용할 수 있게 해주는 managed platform
+
+Cloud Dataflow?
+
+batch/streaming 가능한 ETL 파이프라이닝 도구.
+
+Source, Transform, Sink 구조. 각 파이프라인의 모든 단계는 동적 확장이 가능함.
+
+클러스터를 시작하고 리소스 관리할 필요 없이, on demand로 리소스 할당 가능.
+
+BigQuery?
+
+ad-hoc SQL query on massive datasets.
+
+fully managed, peta-byte scale, low-cost DW.
+
+pay as you go model. 즉, 사용한 만큼 비용 지불.
+
+cloud storage, cloud datastore의 데이터를 bigquery로 로드해서 사용.
+
+스타트업부터 큰 규모의 기업까지, free quota와 높은 SLA 등의 장점으로 많은 기업에서 사용함.
+
+리전 설정 가능. 데이터를 유럽, 아시아 등의 단위로 저장하도록 설정 가능함.
+
+스토리지와 컴퓨팅이 나눠져 있음. 따라서, 실제로 쿼리가 동작할 경우에만 과금.
+
+누가 데이터에 접근했는지 등의 컨트롤이 가능함.
+
+데이터셋을 타 프로젝트와 공유할 경우, 퍼포먼스나 비용에 영향을 주지는 않음.
+
+90일 이상 지난 데이터는 자동으로 cold tier로 저장되어 가격이 저렴해짐.
+
+Cloud Pub/Sub and Cloud Datalab?
+
+Cloud Pub/Sub은 카프카와 같은 메세지 큐라고 보면 됨.
+
+단일 프로듀스, 다중 컨슈머 모델.
+
+low latency를 보장하는 at least once 모델. 즉, 매우 적은 확률로 한 번 이상의 메세지가 전달될 수 있다.
+
+초당 백만 단위의 on demand scale 지원함.
+
+Cloud Dataflow와 합이 매우 잘 맞음. 특히 IoT와 같은 real-time 데이터일 경우.
+
+Cloud Datalab은 Jupyter와 같음.
+
+Compute Enging VM 위에서 동작함. 생성 시 VM 타입과 리전 설정 필요.
+
+## **Google Cloud Machine Learning Platform**
+
+Cloud Machine Learning Platform?
+
+managed 머신러닝 플랫폼.
+
+Google에 의해 pre-train 된 다양한 머신러닝 모델을 사용할 수 있다.
+
+Tensorflow 지원.
+
+Tensor Proccessing Unit(TPU)을 Compute Engine VM으로 구성하여 Tensorflow 활용 가능.
+
+사용에 대한 과금 정책이기 때문에, 역시 인프라에 대한 비용 투자를 효율적으로 할 수 있음.
+
+다양한 목적에 따라 사용할 수 있는 머신러닝 API를 제공함.
+
+정형 데이터 vs 비정형 데이터
+
+정형 데이터 - 분류, 회기, 추천, 어노멀리 디텍션
+
+비정형 데이터 - 이미지, 비디오, 텍스트 분석
+
+Machine learning APIs?
+
+Cloud Vision API - rest API 기반의 이미지 분석
+
+Cloud Natural Language API - STT. 80개 이상 언어 지원.
+
+Cloud Translation API - 특정 문자열을 다양한 언어로 번역. 소스 언어를 몰라도 자동으로 찾아냄.
+
+Cloud Video Intelligence API(Beta) - 비디오 컨텐트의 annotation을 통해 검색 가능.
