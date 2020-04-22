@@ -52,7 +52,7 @@
 
 해답
 * (3-1) 조직(최상위 루트노드) -> 폴더 -> 프로젝트 -> 리소스(리프노드)
-* (3-2) 2
+* (3-2) 3
 * (3-3) primitive, predefined, custom
 * (3-3) Editor, Viewer
 * (3-5) Google Account, Service Account, Google Group, G Suite, Cloud Identity Domains
