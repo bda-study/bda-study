@@ -15,7 +15,7 @@ categories: meeting
 ### - 스터디 진행 내용
 
 - 개요
-  - 범위 : Essential Cloud Infrastructure: Foundation 강의. Module3 overview ~ compute pricing
+  - 범위 : Essential Cloud Infrastructure: Core Services 강의. Module 2: Storage and Database Services Lab Review: Cloud Storage 까지
   - 일시 : 2020-04-22 21:00~21:50
   - 참석 : 동렬, 영균, 덕헌, 광선
 
